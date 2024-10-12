@@ -51,7 +51,7 @@
 
 /* common sections */
 .common-pera {
-    color: #0d1321a8;
+    color: #0d13219d;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -63,7 +63,9 @@
 .common-weight {
     max-width: 1140px;
 }
-.universal-head{
+
+/* common section */
+.universal-head {
     color: black;
     font-size: 32px;
     font-weight: 800;
@@ -90,9 +92,80 @@
 
 .second-section {
     border-radius: 16px;
+    /* background color must be changed before submission */
     background: skyblue;
     text-align: center;
     margin: auto;
     margin-top: 74px;
     padding: 80px 97px;
+}
+
+.why-card-1 {
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    gap: 200px;
+    text-align: left;
+    margin-top: 48px;
+}
+
+/* common in this section */
+.why-card-text-title {
+    color: #0D1321B3;
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+/* common int this section ends */
+.why-card-button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px;
+    margin-top: 32px;
+}
+
+.why-card-2 {
+    padding: 48px;
+    border-radius: 16px;
+    display: flex;
+    text-align: left;
+    margin-top: 32px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    gap: 80px;
+}
+
+/* 3rd section starts */
+.third-section {
+    margin: auto;
+    margin-top: 90px;
+}
+
+.videoplay {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 48px;
+
+}
+/* forth section starts */
+.forth-section{
+    text-align: center;
+    margin: auto;
+    margin-top: 151px;
 }
