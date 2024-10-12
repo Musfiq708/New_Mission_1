@@ -62,6 +62,7 @@
 
 .common-weight {
     max-width: 1140px;
+    margin: auto;
 }
 
 /* common section */
@@ -163,9 +164,50 @@
     margin-top: 48px;
 
 }
+
 /* forth section starts */
-.forth-section{
+.forth-section {
     text-align: center;
     margin: auto;
     margin-top: 151px;
+}
+
+.current-target {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.target-card {
+    border-radius: 16px;
+    padding: 40px;
+    height: 300px;
+    width: 364px;
+    text-align: left;
+}
+
+.target-code {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px ;
+    margin-bottom: 8px;
+}
+/* common class can be used */
+.code-links{
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700; 
+    
+}
+/* common class can be used later */
+
+/* Sixth Section */
+.sixth-section{
+    border-radius: 16px;
 }
