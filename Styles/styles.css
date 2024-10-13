@@ -94,7 +94,7 @@
 .second-section {
     border-radius: 16px;
     /* background color must be changed before submission */
-    background: skyblue;
+    background: rgba(0, 0, 0, 0.03);
     text-align: center;
     margin: auto;
     margin-top: 74px;
@@ -194,20 +194,73 @@
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
-    margin-top: 24px ;
+    margin-top: 24px;
     margin-bottom: 8px;
 }
+
 /* common class can be used */
-.code-links{
+.code-links {
     color: #0D1321;
     font-family: Azeret Mono;
     font-size: 16px;
-    font-weight: 700; 
-    
+    font-weight: 700;
+
 }
+
 /* common class can be used later */
 
 /* Sixth Section */
-.sixth-section{
+.sixth-section {
     border-radius: 16px;
+    
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    padding: 64px 48px;
+    margin-top: 50px;
+    text-align: center;
+    
+
+
+}
+
+.support-heading {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+
+.support-input {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 20px;
+    width: 548px;
+    
+}
+
+.subbport-btn {
+    border-radius: 8px;
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+/* footer section */
+.footer-section{
+     
+}
+.foot-body{
+display: flex;
+justify-content: space-between;
+padding: 32px 150px;
+background: rgba(13, 19, 33, 0.08);
+margin-top: 80px;
+}
+.social-media{
+    display: flex;
+    gap: 24px;
 }
